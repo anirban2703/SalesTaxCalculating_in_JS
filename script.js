@@ -88,7 +88,7 @@ const calculateTax = (Items) =>{
        let tempPrice = itemData.price * itemData.qty;
        let tax= (currPrice*10)/100;
 
-       if( itemData.name.includes("book") || itemData.name.includes("chocolates") || itemData.name.includes("pills")){
+       if( itemData.name.includes("book") ||  itemData.name.includes("chocolates") || itemData.name.includes("pills")){
         totalPrice += currPrice; 
        }else{
         SalesTax += tax;
