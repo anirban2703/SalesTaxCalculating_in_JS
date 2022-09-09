@@ -55,7 +55,7 @@ const showList = () =>{
     let productLists = document.getElementById('productLists')
     Items.map((data, index) => {
         // console.log(data.productName)
-        outPut+=`<li class="list-group-item ">Qty: ${data.qty+"  Product Name : "+ data.productName} at ${data.productPrice}
+        outPut+=`<li class="list-group-item ">${data.qty+"  Piece : "+ data.productName} at ${data.productPrice}
         <button type="button" onClick= "deleteItems(${index})" class="btn dlt-btn btn-danger">Delete</button>
         </li>
         `

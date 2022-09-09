@@ -59,3 +59,10 @@
     }
     
 }
+
+@media print{
+    .submit-print-btns,.add-btn, #productLists, #addBtn, .item-input{
+        display: none;
+        opacity: 0;
+    }
+}
